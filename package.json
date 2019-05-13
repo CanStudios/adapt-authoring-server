@@ -14,6 +14,10 @@
     "adapt-authoring-core": "git+https://github.com/taylortom/adapt-authoring-core.git",
     "body-parser": "1.18.3",
     "express": "4.16.3",
-    "hbs": "4.0.4"
+    "hbs": "4.0.4",
+    "adapt-authoring-auth": "git+https://github.com/CanStudios/adapt-authoring-auth.git#initial",
+    "cookie-parser": "^1.4.4",
+    "body-parser": "^1.19.0",
+    "express-session": "^1.16.1"
   }
 }
