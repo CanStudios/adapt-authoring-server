@@ -1,0 +1,7 @@
+{
+  "applistening": "listening on %{port}",
+  "appstoplistening": "no longer listening on %{port}",
+  "appavailable": "app available at %{url}",
+  "addrouter": "added router at %{path}",
+  "addroute": "added %{method} %{route}"
+}

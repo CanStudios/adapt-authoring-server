@@ -1,23 +1,47 @@
 {
-  "name": "adapt-authoring-server",
-  "version": "0.0.1",
-  "description": "Express server for the Adapt authoring tool",
-  "homepage": "https://github.com/taylortom/adapt-authoring-server",
-  "main": "index.js",
+  "_from": "git+ssh://git@github.com/adapt-security/adapt-authoring-server.git",
+  "_id": "adapt-authoring-server@0.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/adapt-authoring-server",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "adapt-authoring-server@git+ssh://git@github.com/adapt-security/adapt-authoring-server.git",
+    "name": "adapt-authoring-server",
+    "escapedName": "adapt-authoring-server",
+    "rawSpec": "git+ssh://git@github.com/adapt-security/adapt-authoring-server.git",
+    "saveSpec": "git+ssh://git@github.com/adapt-security/adapt-authoring-server.git",
+    "fetchSpec": "ssh://git@github.com/adapt-security/adapt-authoring-server.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/adapt-security/adapt-authoring-server.git#abc505ae44d96bb18e3b5104eb0c7eefbe281404",
+  "_spec": "adapt-authoring-server@git+ssh://git@github.com/adapt-security/adapt-authoring-server.git",
+  "_where": "/home/nicola/code/adapt-rewrite/adapt-authoring",
   "adapt_authoring": {
     "module": true,
     "documentation": {
-      "enable": true,
-      "includes": {
-        "source": "lib/*",
-        "docs": "docs/*"
-      }
+      "enable": true
     }
   },
+  "bundleDependencies": false,
   "dependencies": {
-    "adapt-authoring-core": "git+https://github.com/taylortom/adapt-authoring-core.git",
-    "body-parser": "1.18.3",
     "express": "4.16.3",
-    "hbs": "4.0.4"
-  }
+    "hbs": "4.0.6"
+  },
+  "deprecated": false,
+  "description": "Provides an Express application routing and more",
+  "devDependencies": {
+    "supertest": "4.0.2"
+  },
+  "homepage": "https://github.com/taylortom/adapt-authoring-server",
+  "main": "index.js",
+  "name": "adapt-authoring-server",
+  "peerDependencies": {
+    "adapt-authoring-core": "git+https://github.com/taylortom/adapt-authoring-core.git"
+  },
+  "version": "0.0.1"
 }

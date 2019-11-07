@@ -1,0 +1,12 @@
+{
+  "routeralreadyinited": "Router has already initialised",
+  "middlewaremaynotbecalled": "middleware may not be called before any route handlers",
+  "nomoreroutes": "cannot set further routes",
+  "nomorechildrouters": "cannot create further child routers",
+  "routenotfound": "Not found: %{method} %{url}",
+  "invalidroute": "invalid route config for %{route} router",
+  "routenotstring": "route must be a string",
+  "nohandlers": "no route handlers defined",
+  "handlersnotfuncs": "all route handlers must be functions",
+  "noserver": "Cannot stop server, it wasn't running!"
+}
